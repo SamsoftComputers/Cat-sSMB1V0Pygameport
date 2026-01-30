@@ -112,7 +112,6 @@ MARIO_PALETTE = [(0,0,0), SKIN, RED, BROWN]
 ENEMY_PALETTE = [(0,0,0,0), WHITE, BLACK, BROWN]
 KOOPA_PALETTE = [(0,0,0,0), WHITE, GREEN, BLACK]
 PIRANHA_PALETTE = [(0,0,0,0), GREEN, RED, BLACK]
-GOOMBERT_PALETTE = [(0,0,0,0), WHITE, BLACK, DKBROWN] # Darker Goomba
 BRICK_PALETTE = [(0,0,0,0), DKBROWN, ORANGE, BLACK]
 FLAG_PALETTE = [(0,0,0,0), GREEN, WHITE, BLACK]
 STAR_PALETTE = [(0,0,0,0), YELLOW, ORANGE, BLACK]
@@ -126,7 +125,7 @@ MARIO_JUMP = [[0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0],[0,0,0,0,0,0,2,2,2,2,2,2,2,2,0,0
 
 # Big Mario (16x32)
 BIG_MARIO_TOP = [[0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0],[0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0],[0,0,0,0,0,3,3,3,1,1,1,3,0,0,0,0],[0,0,0,0,3,1,3,1,1,1,3,1,1,1,0,0],[0,0,0,0,3,1,3,3,1,1,1,3,1,1,1,0],[0,0,0,0,3,3,1,1,1,1,3,3,3,3,0,0],[0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0],[0,0,0,0,0,2,2,3,2,2,0,0,0,0,0,0],[0,0,0,0,2,2,2,3,2,2,3,2,2,0,0,0],[0,0,0,0,2,2,2,3,3,3,3,2,2,0,0,0],[0,0,0,0,2,2,3,1,3,3,1,3,2,2,0,0],[0,0,0,0,0,3,3,3,3,3,3,3,3,0,0,0],[0,0,0,0,0,3,3,0,0,0,0,3,3,0,0,0],[0,0,0,0,3,3,3,0,0,0,0,3,3,3,0,0],[0,0,0,3,3,3,0,0,0,0,0,0,3,3,3,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-BIG_MARIO_BOT = [[0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0],[0,0,0,0,0,2,2,3,2,2,0,0,0,0,0,0],[0,0,0,0,2,2,2,3,2,2,3,2,2,0,0,0],[0,0,0,0,2,2,2,3,3,3,3,2,2,0,0,0],[0,0,0,0,2,2,3,1,3,3,1,3,2,2,0,0],[0,0,0,0,0,3,3,3,3,3,3,3,3,0,0,0],[0,0,0,0,0,3,3,0,0,0,0,3,3,0,0,0],[0,0,0,0,3,3,3,0,0,0,0,3,3,3,0,0],[0,0,0,3,3,3,0,0,0,0,0,0,3,3,3,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
+BIG_MARIO_BOT = [[0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0],[0,0,0,0,0,2,2,3,2,2,0,0,0,0,0,0],[0,0,0,0,2,2,2,3,2,2,3,2,2,0,0,0],[0,0,0,0,2,2,2,3,3,3,3,2,2,0,0,0],[0,0,0,0,2,2,3,1,3,3,1,3,2,2,0,0],[0,0,0,0,0,3,3,3,3,3,3,3,3,0,0,0],[0,0,0,0,0,3,3,0,0,0,0,3,3,0,0,0],[0,0,0,0,3,3,3,0,0,0,0,3,3,3,0,0],[0,0,0,3,3,3,0,0,0,0,0,0,3,3,3,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
 
 GOOMBA_SPRITE = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,3,3,3,3,0,0,0,0,0,0],[0,0,0,0,0,3,3,3,3,3,3,0,0,0,0,0],[0,0,0,0,3,3,3,3,3,3,3,3,0,0,0,0],[0,0,0,3,1,1,3,3,3,3,1,1,3,0,0,0],[0,0,0,3,1,2,3,3,3,3,2,1,3,0,0,0],[0,0,3,3,3,3,3,3,3,3,3,3,3,3,0,0],[0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0],[0,0,3,3,3,3,3,3,3,3,3,3,3,3,0,0],[0,0,0,3,3,0,0,3,3,0,0,3,3,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
 
@@ -227,7 +226,6 @@ def init_assets():
     assets['mario_walk3'] = create_surface(MARIO_WALK3, MARIO_PALETTE)
     assets['mario_jump'] = create_surface(MARIO_JUMP, MARIO_PALETTE)
     assets['goomba'] = create_surface(GOOMBA_SPRITE, ENEMY_PALETTE)
-    assets['goombert'] = pygame.transform.scale(create_surface(GOOMBA_SPRITE, GOOMBERT_PALETTE), (32, 32)) # Big Boss
     assets['koopa'] = create_surface(KOOPA_SPRITE, KOOPA_PALETTE)
     assets['piranha'] = create_surface(PIRANHA_SPRITE, PIRANHA_PALETTE)
     assets['mushroom'] = create_surface(MUSHROOM_SPRITE, [(0,0,0), RED, WHITE, BLACK])
@@ -713,71 +711,6 @@ class Piranha(Entity):
     def die(self):
         pass # Invincible to stomp
 
-class Goombert(Enemy):
-    def __init__(self, x, y):
-        super().__init__(x, y, assets['goombert'])
-        self.dx = -1.0 # Faster than normal
-        self.hp = 3
-        self.hit_timer = 0
-        self.start_x = x
-        self.squish_height = 24
-        self.rect = self.image.get_rect()
-        self.rect.x = x
-        self.rect.y = y
-    
-    def update(self, blocks):
-        if self.dead:
-            self.timer += 1
-            if self.timer > 60: self.kill() # Longer death anim
-            return
-
-        if self.hit_timer > 0:
-            self.hit_timer -= 1
-            # Flashing effect
-            if self.hit_timer % 4 < 2:
-                self.image.set_alpha(100)
-            else:
-                self.image.set_alpha(255)
-        
-        self.dy += GRAVITY
-        self.true_x += self.dx
-        self.rect.x = int(self.true_x)
-        
-        # Patrol logic
-        if self.rect.x < self.start_x - 100 or self.rect.x > self.start_x + 100:
-            self.dx *= -1
-            
-        self.true_y += self.dy
-        self.rect.y = int(self.true_y)
-        
-        # Collision
-        for b in blocks:
-            if b.type in ['F', 'O', 'T', 'S']: continue
-            if self.rect.colliderect(b.rect):
-                if self.dy > 0:
-                    self.rect.bottom = b.rect.top
-                    self.dy = 0
-                    self.true_y = float(self.rect.y)
-                    
-    def die(self):
-        if self.hit_timer > 0: return # Invincible
-        
-        self.hp -= 1
-        self.hit_timer = 60 # 1 sec iframe
-        sounds['boss_hit'].play()
-        
-        if self.hp <= 0:
-            self.dead = True
-            self.image = pygame.transform.scale(self.image, (32, 10))
-            self.rect = self.image.get_rect(center=self.rect.center)
-            self.rect.bottom += 10
-            # SPAWN STAR!
-            sounds['star_spawn'].play()
-            return True # Signal to spawn star
-        else:
-            self.dx *= 1.5 # Get angry/fast
-            return False
-
 class Powerup(Entity):
     def __init__(self, x, y):
         super().__init__(x, y, assets['mushroom'])
@@ -1052,14 +985,6 @@ def generate_level(world, stage):
         for x in range(121, 125): grid[11][x] = 'H'
         enemy_positions = [30, 45, 65, 95, 110, 140, 160, 175]
         
-        # BOSS ARENA (at the end)
-        for x in range(185, 205): # Wall off
-             grid[0][x] = 'H'; grid[1][x] = 'H'
-             if x == 185: 
-                 for y in range(2, 13): grid[y][x] = 'B' # Wall
-                 
-        # No Axe, Goombert spawns via main loop
-        
     # Worlds 2-8: Procedural with increasing difficulty
     else:
         difficulty = world + (stage - 1) * 0.25
@@ -1123,7 +1048,7 @@ def generate_level(world, stage):
                 enemy_positions.append(ex)
     
     # Flag pole (always at end) - Except Boss
-    if stage != 4:
+    if True: # Modified: Always generate flag, even for stage 4
         grid[12][198] = 'H'
         for y in range(2, 12): grid[y][198] = 'O'
         grid[1][198] = 'T'
@@ -1302,12 +1227,6 @@ def main():
             coins_group.add(coin)
             all_sprites.add(coin)
             
-        # Spawn Goombert if Boss Level
-        if stage == 4:
-            g = Goombert(195 * TILE_SIZE, 8 * TILE_SIZE)
-            enemies.add(g)
-            all_sprites.add(g)
-
         if existing_player:
             player = existing_player
             player.rect.x = 100; player.rect.y = 100
@@ -1441,10 +1360,6 @@ def main():
             for e in enemies:
                 if abs(e.rect.x - player.rect.x) < SCREEN_W: 
                     e.update(blocks)
-                    # Check Boss Death trigger
-                    if isinstance(e, Goombert) and e.dead:
-                        # Spawn star
-                         player.score += 5000
                          
             for p in powerups: p.update(blocks)
             
